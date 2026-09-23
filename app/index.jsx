@@ -1,36 +1,30 @@
 
 import { StyleSheet, View, Text } from 'react-native';
 import { GluestackUIProvider } from '@/components/ui/gluestack-ui-provider';
-import '@/global.css';
 import { Button, ButtonText } from '@/components/ui/button';
 import { Divider } from '@/components/ui/divider';
-import { useRouter } from 'expo-router';
+import { Link } from "expo-router"
 
-export default function pagina3() {
-  const router = useRouter();
+export default function App() {
   return (
 
-      <View style={styles.container}>
-        <Text className='uppercase font-extrabold' style={styles.texto}>O Graziani é DEMAIS!! #22</Text>
-       
 
-      </View>
+    <View style={styles.container}>
+      <Text className='uppercase font-extrabold'>Página Home</Text>
+
+
+    </View>
+
+
+
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#e5ff00',
+    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-  
-    
   },
-  texto:{
-   
-    color:'#1100ff',
-  
-   
-  }
 });

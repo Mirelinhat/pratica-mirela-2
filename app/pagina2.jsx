@@ -11,7 +11,7 @@ export default function pagina2() {
   return (
 
       <View style={styles.container}>
-        <Text className='uppercase font-extrabold'>Página Dois</Text>
+        <Text className='uppercase font-extrabold'>Mirela</Text>
        
 
       </View>
